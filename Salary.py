@@ -1,4 +1,4 @@
-Basicsal = float(input("Enter the basic salary:"))
+Basicsal = float(input("Enter the basic salary :"))
 hra=float(input("Enter the hra:"))
 da=float(input("Enter the da:"))
 Profftax =200
