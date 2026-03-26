@@ -3,7 +3,8 @@ def is_pronic_number(num):
     if n * (n + 1) == num:
       return True
   return False
-print("Pronic numbers between 1 and 100 are:")
+  
+print("Pronic Numbers between 1 and 100 are : ")
 for i in range(1, 101):
   if is_pronic_number(i):
     print(i, end=" | ")
