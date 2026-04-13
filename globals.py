@@ -1,4 +1,3 @@
-# user defined function
 def show():
     y = 20 
     global x
