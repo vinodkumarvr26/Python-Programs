@@ -1,5 +1,4 @@
 def multiply_matrices(mat1, mat2):
-  # D  etermine the dimensions of the input matrices
   rows1 = len(mat1)
   cols1 = len(mat1[0])
   rows2 = len(mat2)
