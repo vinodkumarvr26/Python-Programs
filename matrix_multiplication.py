@@ -6,7 +6,6 @@ def multiply_matrices(mat1, mat2):
 if cols1 != rows2:
   return "Matrix multiplication is not possible. Number of column
 result = [[0 for _ in range(cols2)] for _ in range(rows1)]
-# Perform matrix multiplication
 for i in range(rows1):
   for j in range(cols2):
     for k in range(cols1):
