@@ -14,11 +14,8 @@ return result
 matrix1 = [[1, 2, 3],
            [4, 5, 6]]
 matrix2 = [[7, 8],
-           [9, 
-10],
-           [11, 
-12]]
-# Multiply the matrices
+           [9, 10],
+           [11, 12]]
 result_matrix = multiply_matrices(matrix1, matrix2)
 # Display the result
 if isinstance(result_matrix, str):
