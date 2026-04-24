@@ -11,8 +11,7 @@ for i in range(rows1):
     for k in range(cols1):
       result[i][j] += mat1[i][k] * mat2[k][j]
 return result
-matrix1 = [[1, 2, 3],
-           [4, 5, 6]]
+matrix1 = [[1, 2, 3],[4, 5, 6]]
 matrix2 = [[7, 8],
            [9, 10],
            [11, 12]]
