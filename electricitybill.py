@@ -1,4 +1,3 @@
-# Electricity Billing System using match-case
 units = int(input("Enter units consumed: "))
 print("enter consumer category Domestic or Commercial or Industrial")
 category = input().lower()
