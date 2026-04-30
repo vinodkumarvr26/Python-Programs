@@ -1,5 +1,4 @@
-x = 10   # global variable
-# user defined function
+x = 10 
 def show():
     x = 20   # local variable with same name
     print("Local x inside function =", x)
