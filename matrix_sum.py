@@ -8,7 +8,6 @@ def add_matrices(mat1, mat2):
       row.append(mat1[i][j] + mat2[i][j])
     result.append(row)
   return result
-# Input matrices
 matrix1 = [
     [1, 2, 3],
     [4, 5, 6],
