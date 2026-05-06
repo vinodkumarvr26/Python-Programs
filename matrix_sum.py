@@ -19,7 +19,6 @@ matrix2 = [
     [3, 2, 1]
 ]
 result_matrix = add_matrices(matrix1, matrix2)
-# Display the result
 if isinstance(result_matrix, str):
   print(result_matrix)
 else:
