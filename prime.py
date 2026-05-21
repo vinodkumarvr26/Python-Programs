@@ -1,4 +1,3 @@
-# Optimized Prime Number Check
 num = int(input("Enter a number: "))
 is_prime = True
 for i in range(2, int(math.sqrt(num)) + 1):
