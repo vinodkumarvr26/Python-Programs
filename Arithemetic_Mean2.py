@@ -1,4 +1,3 @@
-#Create a program that calculates and displays the arithmetic mean of three grades entered by the user.
 grade1= float(input("Enter the first grade: "))
 grade2= float(input("Enter the second grade: "))
 grade3 = float(input("Enter the third grade: "))
