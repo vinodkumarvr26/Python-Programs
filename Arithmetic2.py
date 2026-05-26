@@ -1,4 +1,3 @@
-# Division
 num3 = float(input("Enter the dividend for division: "))
 num4 = float(input("Enter the divisor for division: "))
 if num4 == 0:
