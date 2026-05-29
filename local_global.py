@@ -1,6 +1,6 @@
 x = 10 
 def show():
-    x = 20   # local variable with same name
+    x = 20 
     print("Local x inside function =", x)
     print("Global x inside function =", globals()['x'])
 show()
