@@ -5,7 +5,6 @@ def transpose_matrix(matrix):
     for j in range(cols):
       result[j][i] = matrix[i][j]
     return result
-# Input matrix
 matrix = [
     [1, 2, 3],
     [4, 5, 6]
