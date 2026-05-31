@@ -9,7 +9,6 @@ matrix = [
     [1, 2, 3],
     [4, 5, 6]
 ]
-# Transpose the matrix
 transposed_matrix = transpose_matrix(matrix)
 # Print the transposed matrix
 for row in transposed_matrix:
