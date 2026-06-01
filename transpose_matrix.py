@@ -10,6 +10,5 @@ matrix = [
     [4, 5, 6]
 ]
 transposed_matrix = transpose_matrix(matrix)
-# Print the transposed matrix
 for row in transposed_matrix:
   print(row)
