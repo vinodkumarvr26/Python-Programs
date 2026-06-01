@@ -1,4 +1,4 @@
-x = 10   # global variable
+x = 10  
 # user defined function
 def show():
     y = 20   # local variable
