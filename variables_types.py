@@ -1,7 +1,6 @@
 x = 10  
-# user defined function
 def show():
-    y = 20   # local variable
+    y = 20 
     print("Inside function  x =", x)
     print("Inside function y =", y)
 # main program or driver code
