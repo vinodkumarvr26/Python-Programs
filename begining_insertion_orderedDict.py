@@ -1,5 +1,4 @@
 from collections import OrderedDict
-# Create an OrderedDict
 ordered_dict = OrderedDict([('b', 2), ('c', 3), ('d', 4)])
 # Item to insert at the beginning
 new_item = ('a', 1)
