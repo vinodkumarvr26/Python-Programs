@@ -1,7 +1,3 @@
-# Program to find the maximum marks scored by a student
-# without using any built-in functions
-
-# read number of students
 n = int(input("Enter number of students: "))
 
 # create an empty list to store marks
