@@ -1,6 +1,4 @@
-# Function to add two matrices
 def add_matrices(mat1, mat2):
-   # Check if the matrices have the same dimensions
    if len(mat1) != len(mat2) or len(mat1[0]) != len(mat2[0]):
      return "Matrices must have the same dimensions for addition"
 
