@@ -1,8 +1,6 @@
 def add_matrices(mat1, mat2):
    if len(mat1) != len(mat2) or len(mat1[0]) != len(mat2[0]):
      return "Matrices must have the same dimensions for addition"
-
- # Initialize an empty result matrix with the same dimensions
  result = []
  for i in range(len(mat1)):
    row = []
@@ -11,7 +9,6 @@ def add_matrices(mat1, mat2):
    result.append(row)
 
  return result
-# Input matrices
 matrix1 = [
    [1, 2, 3],
    [4, 5, 6],
