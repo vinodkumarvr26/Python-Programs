@@ -19,10 +19,7 @@ matrix2 = [
    [6, 5, 4],
    [3, 2, 1]
 ]
-# Call the add_matrices function
 result_matrix = add_matrices(matrix1, matrix2)
-
-# Display the result
 if isinstance(result_matrix, str):
  print(result_matrix)
 else:
