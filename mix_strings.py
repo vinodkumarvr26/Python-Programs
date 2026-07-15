@@ -5,9 +5,6 @@ s2_length = len(s2)
 length = s1_length if s1_length > s2_length else s2_length
 result = ""
 s2 = s2[::-1]
-
-# iterate string 
-# s1 ascending and s2 descending
 for i in range(length):
     if i < s1_length:
         result = result + s1[i]
