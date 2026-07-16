@@ -2,7 +2,6 @@ def is_disarium(number):
   num_str = str(number)
   digit_sum = sum(int(i) ** (index + 1) for index, i in enumerate(num
   return digit_sum == number
-# Input a number from the user
 try:
   num = int(input("Enter a number: "))
   # Check if it's a Disarium number
