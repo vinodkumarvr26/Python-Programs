@@ -4,7 +4,6 @@ def is_disarium(number):
   return digit_sum == number
 try:
   num = int(input("Enter a number: "))
-  # Check if it's a Disarium number
   if is_disarium(num):
     print(f"{num} is a Disarium number.")
   else:
