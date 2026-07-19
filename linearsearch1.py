@@ -1,5 +1,4 @@
 n = int(input("Enter number of students: "))
-# Create an empty list to store roll numbers
 roll_numbers = []
 
 # Read roll numbers of students
