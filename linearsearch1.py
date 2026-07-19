@@ -1,5 +1,3 @@
-# Program to check if a student has submitted the assignment using Linear Search
-# Read total number of students
 n = int(input("Enter number of students: "))
 # Create an empty list to store roll numbers
 roll_numbers = []
