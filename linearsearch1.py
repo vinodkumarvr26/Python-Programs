@@ -1,7 +1,5 @@
 n = int(input("Enter number of students: "))
 roll_numbers = []
-
-# Read roll numbers of students
 print("Enter roll numbers of students:")
 for i in range(n):
     roll = int(input("enter roll number  "))
