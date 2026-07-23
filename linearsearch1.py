@@ -5,7 +5,6 @@ for i in range(n):
     roll = int(input("enter roll number  "))
     roll_numbers.append(roll)
 
-# Read roll number to search
 search_roll = int(input("Enter roll number to search: "))
 
 # Initialize a flag to indicate if roll number is found
