@@ -1,10 +1,7 @@
 def is_harshad_number(num):
-  # Calculate the sum of the digits of the number
   digit_sum = sum(int(i) for i in str(num))
   return num % digit_sum == 0
 num = int(input("Enter a number: "))
-
-# Check if it's a Harshad Number
 if is_harshad_number(num):
   print(f"{num} is a Harshad Number.")
 else:
