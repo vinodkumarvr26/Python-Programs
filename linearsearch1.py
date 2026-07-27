@@ -7,8 +7,6 @@ for i in range(n):
 
 search_roll = int(input("Enter roll number to search: "))
 found = False
-
-# Linear Search
 for roll in roll_numbers:
     if roll == search_roll:
         found = True
