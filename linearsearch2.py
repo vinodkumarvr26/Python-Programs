@@ -5,8 +5,6 @@ for i in range(n):
     roll = int(input("enter roll number  "))
     roll_numbers.append(roll)
 search_roll = int(input("Enter roll number to search: "))
-
-# Linear Search using for-else
 for roll in roll_numbers:
     if roll == search_roll:
         print("Student has submitted the assignment.")
