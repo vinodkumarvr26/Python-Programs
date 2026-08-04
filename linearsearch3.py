@@ -1,6 +1,3 @@
-# Program to check if a student has submitted the assignment using Linear Search
-# Read total number of students
-
 from array import *
 n = int(input("Enter number of students: "))
 # create an empty integer array
