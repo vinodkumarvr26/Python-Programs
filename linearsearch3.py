@@ -1,6 +1,5 @@
 from array import *
 n = int(input("Enter number of students: "))
-# create an empty integer array
 roll_numbers= array('i', [])
 
 # Read roll numbers of students
