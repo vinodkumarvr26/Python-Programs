@@ -14,8 +14,6 @@ for roll in roll_numbers:
     if roll == search_roll:
         found = True
         break
-
-# Display result
 if found:
     print("Student has submitted the assignment.")
 else:
