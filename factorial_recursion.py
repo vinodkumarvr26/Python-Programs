@@ -4,7 +4,6 @@ def recur_factorial(n):
   else:
     return n*recur_factorial(n-1)
 num = int(input("Enter the number: "))
-# check if the number is negative
 if num < 0:
   print("Sorry, factorial does not exist for negative numbers")
 elif num == 0:
