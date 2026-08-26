@@ -1,6 +1,5 @@
 # Accept input from the user
 sentence = input("Enter a sentence: ")
-# Initialize counters for letters and digits
   letter_count = 0
 for char in sentence:
   if char.isalpha():
