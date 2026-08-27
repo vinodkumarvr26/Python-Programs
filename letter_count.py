@@ -1,4 +1,3 @@
-# Accept input from the user
 sentence = input("Enter a sentence: ")
   letter_count = 0
 for char in sentence:
