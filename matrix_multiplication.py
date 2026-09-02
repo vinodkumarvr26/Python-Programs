@@ -18,7 +18,7 @@ matrix2 = [[7, 8],
 result_matrix = multiply_matrices(matrix1, matrix2)
 if isinstance(result_matrix, str):
   print(result_matrix)
-else:
+else:ggggfg
   print("Result of matrix multiplication:")
   for row in result_matrix:
     print(row)
