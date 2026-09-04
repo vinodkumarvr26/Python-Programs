@@ -3,6 +3,4 @@ sentence = input("Enter a sentence: ")
 for char in sentence:
   if char.isalpha():
     letter_count += 1
-  
-# Print the results
 print("LETTERS", letter_count)
