@@ -3,7 +3,6 @@ def rotate_array(arr, d):
   if d < 0 or d >= n:
     return "Invalid rotation value"
   rotated_arr = [0] * n
-# Perform the rotation.
   for i in range(n):
     rotated_arr[i] = arr[(i + d) % n]
   return rotated_arr
