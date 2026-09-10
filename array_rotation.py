@@ -7,7 +7,6 @@ def rotate_array(arr, d):
     rotated_arr[i] = arr[(i + d) % n]
   return rotated_arr
 arr = [1, 2, 3, 4, 5]
-# Number of positions to rotate
 d = 2
 # Call the rotate_array function
 result = rotate_array(arr, d)
