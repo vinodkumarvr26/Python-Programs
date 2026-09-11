@@ -8,7 +8,6 @@ def rotate_array(arr, d):
   return rotated_arr
 arr = [1, 2, 3, 4, 5]
 d = 2
-# Call the rotate_array function
 result = rotate_array(arr, d)
 # Print the rotated array
 print("Original Array:", arr)
