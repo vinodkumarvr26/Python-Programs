@@ -1,5 +1,6 @@
 def rotate_array(arr, d):
   n = len(arr)
+  ###
   if d < 0 or d >= n:
     return "Invalid rotation value"
   rotated_arr = [0] * n
