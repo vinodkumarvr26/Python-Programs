@@ -1,3 +1,4 @@
+#Enter 1st input
 n1= int(input("Enter the first number: "))
 #Enter 2nd input 
 n2 = int(input("Enter the second number: "))
